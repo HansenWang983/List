@@ -12,7 +12,7 @@
 
 主函数通过字符选单测试数据：
 
-![1](/Users/hansen/Desktop/1.tiff)
+![1](./screenshot/1.tiff)
 
 进入分离操作函数：
 
@@ -24,11 +24,11 @@ void linked_implementation()
 
 内部选单：
 
-![2](/Users/hansen/Desktop/2.png)
+![2](./screenshot/2.png)
 
 当list为空时（无remove操作）：
 
-![3](/Users/hansen/Desktop/3.png)
+![3](./screenshot/3.png)
 
 #### 关于insert：
 
@@ -44,11 +44,11 @@ Error_code l_List::insert(int position,const char &x)//linked_list
 
 **最后会显示当前list的结果**
 
-![4](/Users/hansen/Desktop/4.png)
+![4](./screenshot/4.png)
 
 **positon范围为0-count，否则重新输入**
 
-![5](/Users/hansen/Desktop/5.png)
+![5](./screenshot/5.png)
 
 
 
@@ -66,7 +66,7 @@ Error_code l_List::remove(int position,char &x)//linked_list
 
 **positon的范围为0-count-1**
 
-![6](/Users/hansen/Desktop/6.png)
+![6](./screenshot/6.png)
 
 
 
@@ -76,11 +76,11 @@ Error_code l_List::remove(int position,char &x)//linked_list
 
 顺序存储结构数据成员：
 
-![7](/Users/hansen/Desktop/7.png)
+![7](./screenshot/7.png)
 
 链式存储结构数据成员：
 
-![8](/Users/hansen/Desktop/8.png)
+![8](./screenshot/8.png)
 
 **insert**
 
