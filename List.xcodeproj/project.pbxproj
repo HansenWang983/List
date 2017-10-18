@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6029FB451F96CFD80034002F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6029FB441F96CFD80034002F /* main.swift */; };
+		6029FB4D1F96D01D0034002F /* sequence_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6029FB4B1F96D01D0034002F /* sequence_list.cpp */; };
+		6029FB681F96F3700034002F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6029FB671F96F3700034002F /* main.cpp */; };
+		6029FB6B1F96F3760034002F /* linked_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6029FB6A1F96F3760034002F /* linked_list.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		6029FB411F96CFD80034002F /* List */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = List; sourceTree = BUILT_PRODUCTS_DIR; };
-		6029FB441F96CFD80034002F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		6029FB4B1F96D01D0034002F /* sequence_list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sequence_list.cpp; sourceTree = SOURCE_ROOT; };
+		6029FB4C1F96D01D0034002F /* sequence_list.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sequence_list.hpp; sourceTree = SOURCE_ROOT; };
+		6029FB671F96F3700034002F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		6029FB691F96F3740034002F /* linked_list.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = linked_list.hpp; sourceTree = SOURCE_ROOT; };
+		6029FB6A1F96F3760034002F /* linked_list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = linked_list.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +63,11 @@
 		6029FB431F96CFD80034002F /* List */ = {
 			isa = PBXGroup;
 			children = (
-				6029FB441F96CFD80034002F /* main.swift */,
+				6029FB4B1F96D01D0034002F /* sequence_list.cpp */,
+				6029FB4C1F96D01D0034002F /* sequence_list.hpp */,
+				6029FB6A1F96F3760034002F /* linked_list.cpp */,
+				6029FB691F96F3740034002F /* linked_list.hpp */,
+				6029FB671F96F3700034002F /* main.cpp */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -120,7 +130,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6029FB451F96CFD80034002F /* main.swift in Sources */,
+				6029FB6B1F96F3760034002F /* linked_list.cpp in Sources */,
+				6029FB681F96F3700034002F /* main.cpp in Sources */,
+				6029FB4D1F96D01D0034002F /* sequence_list.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +264,7 @@
 				6029FB4A1F96CFD80034002F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
